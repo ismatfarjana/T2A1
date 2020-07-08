@@ -66,7 +66,22 @@ The cons of the Postgres database( relational DB) :
 * The storage pattern here is concentrated. That means the entire copy of data is contained in one place which is typically not partitioned from one another unless some advanced strategy is been used.
 *  Low performance. For better performance, building a better machine is the requirement. 
 * Not good for High scaled, a large project that needs high performance.
+
+
+
 Q3: Discuss the implementation of Agile project management methodology 200-300
+
+Ans: Before developing a web application some prior works are done virtually for assuming the outcome of the whole work at the end. This called the development methodology. There are different kinds of methodologies. Waterfall methodologies, Agile methodologies sets.  
+Waterfall model applications are normally very big applications. It holds different sectors all together like the front end, back-end, DNS, etc that are measured altogether as a single application. The interesting aspect of the waterfall methodology as if the smallest part of the application fails somehow, the entire application would stop working. It also took a long time to push the change to production in this way which is not acceptable for most of the modern web applications like-  Netflix, uber, etc..  For fulfilling this shortage, the agile methodology was brainstormed but the developers. For finding the better approach to build an application in a first-place without affecting the existing software. 
+
+
+Agile meaning: The word Agile means - the chain of rapid development and deployment. That means, breaking the whole application plan into a small piece of code and work on the small services one by one by not affecting the main application in general. Planning, designing, developing, testing, deploying, reviewing is done on those small chunks one by one except the launching. This ensures secure constant feedback by deploying it in a dev environment no matter how big or small changes have been done in any part of code.  This is way batter than waiting months long for getting feedback on a simple change on a code to decide whether the change is acceptable or not.
+This aspect is good for developer because they can focus on a specific set of task that has specific requirements and priorities, rather than being worried of 10 different microservice at a same time.
+
+
+Agile methodology got few values: 
+* People over process and tools: Agile methodology gives a development-centric and client-centric environment that means exploring the other possibilities rather than holding on something old when a new solution is on hand available. 
+* Working software over comprehensive documentation: 
 
 ---
 
