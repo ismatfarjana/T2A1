@@ -47,6 +47,25 @@ Ans:
  I have found the relational database most common in many places like from the order management system (banking) to the content management system (mobile app). One most commonly used relational database management system is Postgresql which is also hugely used in building the Rails app.
 
 
+The pros of the Postgres database( relational DB) :
+ 
+Postgresql is one most popular, flexible, and scalable relational database management systems. It requires a Postgresql server to manage the connection of data and a management application to work with and to view the data it contains. 
+It is good for highs scaled, large project that requires relational queries.
+Structure:
+* Recorded are organized as a table that holds rows and columns. Columns correspond to the type and rows corresponds to the individual entities of the table 
+* It must have a Primary key that corresponds to a unique identifier that identifies a specific row.
+* It has attributes that hold general data about a record.
+* It also can hold a column named foreign key that can link to other tables. The foreign key column, each row holds a value that corresponds to the Primary keys of another table.
+* It holds multiple tables linked by the joined operation. 
+
+
+The cons of the Postgres database( relational DB) :
+
+ * No document implementation or no graph database association
+* Cannot be used in defined access patterned situation.
+* The storage pattern here is concentrated. That means the entire copy of data is contained in one place which is typically not partitioned from one another unless some advanced strategy is been used.
+*  Low performance. For better performance, building a better machine is the requirement. 
+* Not good for High scaled, a large project that needs high performance.
 Q3: Discuss the implementation of Agile project management methodology 200-300
 
 ---
