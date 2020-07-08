@@ -81,8 +81,43 @@ This aspect is good for developer because they can focus on a specific set of ta
 
 Agile methodology got few values: 
 * People over process and tools: Agile methodology gives a development-centric and client-centric environment that means exploring the other possibilities rather than holding on something old when a new solution is on hand available. 
-* Working software over comprehensive documentation: 
+* Working software over comprehensive documentation: Development of the functional application get priority over documentation.
 
+* Customer collaboration over a rigid contract and responding to change rather than following a plan: It is feedback dependent. Because agile allows doing the task in small pieces, any part of code can be modified at any time according to the need following feedback also keeping the main plan intact.
+
+Implementation:
+
+Some examples of Agile frameworks/ philosophies: Scrum, eXtrema Programming, LEAN, KANBAN, CRYSTAL.
+The most popular is SCRUM. 
+Scrum is basically an iterative philosophy. It allows iteration over changes one at a time. Scrum iterates over the plan, build, test, review constantly.
+
+SCRUM structure:
+ROLES:
+1. Product owner ( Manager)
+- In scrum, the product owner is the"Guy with the Idea" so all accountability lies on him. The product owner might not be a technical person, he or she might be a person from management.
+
+2. SCRUM Master ( Team leader)
+- SCRUM master handles the day to day operation which includes setting up meetings, planning tasks for everyone.
+
+3. Tam ( Developers, Tester)
+- The peoples who actually got to do different parts of the whole work that to be done.
+
+
+Parts of Development:
+
+*Product Backlog: This is made by combination of the small tasks of the whole project and each task will iterate over - plan, build, test and review. Each of the tasks supposed to be done within a specific time limit. The product owner and SCRUM master makes the Product backlog. They prioritize the user stories while making the small parts and depending on that the next part is built which is called the "Sprint backlog"
+
+* Sprint backlog: This is where the team starts to work on. It includes the small tasks prioritizing the user stories. These are the logical reasonable tasks that need to be executed one at a time.
+
+* Sprint planning(Meeting):
+
+
+
+
+
+
+
+Agile project management is a process by which a project can be managed by implementing a small part of the works. 
 ---
 
 
