@@ -105,11 +105,22 @@ ROLES:
 
 Parts of Development:
 
+Parts of Development:
+
 *Product Backlog: This is made by combination of the small tasks of the whole project and each task will iterate over - plan, build, test and review. Each of the tasks supposed to be done within a specific time limit. The product owner and SCRUM master makes the Product backlog. They prioritize the user stories while making the small parts and depending on that the next part is built which is called the "Sprint backlog"
 
 * Sprint backlog: This is where the team starts to work on. It includes the small tasks prioritizing the user stories. These are the logical reasonable tasks that need to be executed one at a time.
 
-* Sprint planning(Meeting):
+* Sprint planning(Meeting): In this meeting, the Product owner explains how he wants the app to look like.
+
+* Daily scrum: This is the meeting among the member of the team that includes DEVS, testers, and other people according to the situation to discuss what to do.
+
+*Sprint review: This review session occurs at the end of each user story. The time range could be 2week to 4weeks. This session includes: demonstration of the chunk of code or the verification of completion and to move on to the next task. 
+
+This development process is done several times and at the end of each 2 weeks, there is a shippable part of the app that is ready.
+
+
+
 
 
 
