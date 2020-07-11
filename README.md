@@ -123,17 +123,13 @@ This development process is done several times and at the end of each 2 weeks, t
 
 
 
-
-
-
-
-
-Agile project management is a process by which a project can be managed by implementing a small part of the works. 
 ---
 
 
 Q4: Provide an overview and description of a standard source control workflow 100-200
 
+Ans:
+Standard source control workflow:
 ---
 
 
