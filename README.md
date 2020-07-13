@@ -40,7 +40,7 @@ DO NOT REPEAT YOURSELF principle keeps the code maintainable and less buggy.
 
 Q2: Identify a database commonly used in web applications (including Rails) and discuss the pros and cons of this database 150-250
 
----
+
 
 Ans: 
   In the world of web development, one crucial part is Database. As an example, any organization needs to store information about their employees, their contact details, and other important information.  Here comes the use of the database. A systemic collection of data is simply called the database. database stored information in an organized, reliable, and searchable way and it also has a security feature to keep the information safe with a controlled password-protected way. There are different kinds of databases for different purposes. The main types are text databases, desktop database programs, relational database management systems (RDMS), and NoSQL and object-oriented databases.
@@ -67,7 +67,7 @@ The cons of the Postgres database( relational DB) :
 *  Low performance. For better performance, building a better machine is the requirement. 
 * Not good for High scaled, a large project that needs high performance.
 
-
+---
 
 Q3: Discuss the implementation of Agile project management methodology 200-300
 
@@ -130,6 +130,16 @@ Q4: Provide an overview and description of a standard source control workflow 10
 
 Ans:
 Standard source control workflow:
+Version-control is a system that helps to maintain change in files of the collaborative workflow in a controlled way without having the worry of losing anything. There are two types of Version control. Centralized and Distributed. I choose to explain GIT (Distributed version control) as a standard source/version control system. 
+
+1. It backups every single change made in files so understanding part of code or if anything needs to stay in a previous way is done easily by following the backup history.
+2. It keeps the history so it is easier to compare the current version of work to the version we are working on now.
+3. The entire project with all of the history is mirrored to all the contributor's computers.
+4. It gives the scope to experiment on a part of the project and let ti merge to the main project if it is ok or let it stay as like it was before by letting go of the experimental part.
+5. It allows us to see the contributor's name in the collaborative work field. That means, one contributor, can see which part of code is written or changed by whom.
+
+6. As Git stores all operations in the local machine it is so fast.
+7. 
 ---
 
 
