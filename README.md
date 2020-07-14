@@ -129,7 +129,6 @@ This development process is done several times and at the end of each 2 weeks, t
 Q4: Provide an overview and description of a standard source control workflow 100-200
 
 Ans:
-Standard source control workflow:
 Version-control is a system that helps to maintain change in files of the collaborative workflow in a controlled way without having the worry of losing anything. There are two types of Version control. Centralized and Distributed. I choose to explain GIT (Distributed version control) as a standard source/version control system. 
 
 1. It backups every single change made in files so understanding part of code or if anything needs to stay in a previous way is done easily by following the backup history.
@@ -139,7 +138,13 @@ Version-control is a system that helps to maintain change in files of the collab
 5. It allows us to see the contributor's name in the collaborative work field. That means, one contributor, can see which part of code is written or changed by whom.
 
 6. As Git stores all operations in the local machine it is so fast.
-7. 
+7.  Because it is distributed, all the contributors have the full part of the project and can save the changes locally.
+8. Git is an open-source project
+9. The vulnerability of any organization depends on the software development process. So having the contents secured is a necessity. Git protects all the contents of a git repository with Secure Hash Algorithm 1 or SHA1.
+
+NEW GIT repository -> create a standard file directory locally -> the repository is started by the command `git init` on the terminal -> after adding few files in the repository a snapshot is taken by running the command 'git commit' -> after this further changes can be done to that file and run 'git commit' again -> like the same any file can be deleted or added via the commits 
+
+Git has three parts: working tree(add, remove, edit files in the working tree), staging area(edited file adds to staging the and only staging area files are put into the next commit), history
 ---
 
 
@@ -169,6 +174,12 @@ Q9: Describe the structural aspects of the relational database model. Your descr
 
 
 Q10: Describe the integrity aspects of the relational database model. Your description should include information about the types of data integrity and how they can be enforced in a relational database. 100-200
+
+Ans:
+  The relational database has three types of integrity.
+ * Entity integrety in RDBMS: Prevent duplicacy, ensures that data has been saves is uniq. DB table must have a primery key and they should be uniq in each row for holding the data in the columns.
+ * Referential integrety in RDBMS: Prevention of adding any inconsistant data to exsisting data system is the referential integrety. This states that a table holding foreign key can only hold the values of the table holding the primery key.
+ * domain integrety in RDBMS: A same type of data should be stored under a specific domain name in the table column. That means, every column of a table need to have a domain name.
 
 ---
 
