@@ -186,6 +186,37 @@ Ans:
 
 Q11: Describe the manipulative aspects of the relational database model. Your description should include information about the ways in which data is manipulated (added, removed, changed, and retrieved) in a relational database. 100-200
 
+Ans:
+ Data Manipulation in RDBMS:
+  The database is manipulated by Data manipulating language, eg SQL. 
+  * To add a single row in the existing table of the database, the command is below:
+    SQL INSERT statement- 
+    `INSERT INTO table(columnA, columnB,...)`
+`VALUES (valueA, valueB,...);`
+  * The syntax to remove one or more rows in a table of database permanently:
+   SQL DELETE statement
+  
+  `DELETE FROM table`
+   `WHERE`
+      ` condition;`
+     
+  * To change the existing data in one or more rows in a table the syntax is below:
+   SQL UPDATE syntax
+    ```
+    UPDATE table
+    SET 
+      column1 = new_value1,
+      column2 = new_value2,
+    WHERE
+      condition;
+  * To retrive any data SQL SELECT statement is used:
+     ```
+     SELECT column1,column2...
+     FROM table2,table2...
+     WHERE filter_condition
+     GROUP BY column1
+     HAVING group_condition
+     ORDER BY column1,column2 ASC | DESC
 ---
 
 
