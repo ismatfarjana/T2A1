@@ -216,11 +216,14 @@ Ans:
      WHERE filter_condition
      GROUP BY column1
      HAVING group_condition
-     ORDER BY column1,column2 ASC | DESC
+     ORDER BY column1,column2 ASC | DESC 
 ---
 
 
 Q12: Identify and explain the workings of TWO sorting algorithms and discuss and compare their performance/efficiency (i.e. Big O) 100-200
+Ans: 
+Sorting algorythms:
+
 
 ---
 
