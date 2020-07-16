@@ -189,121 +189,6 @@ Q11: Describe the manipulative aspects of the relational database model. Your de
 Ans:
  Data Manipulation in RDBMS:
   The database is manipulated by Data manipulating language, eg SQL. 
-  * To add a single row in the existing table of the database, the command is below:
-    SQL INSERT statement- 
-    `INSERT INTO table(columnA, columnB,...)`
-`VALUES (valueA, valueB,...);`
-  * The syntax to remove one or more rows in a table of database permanently:
-   SQL DELETE statement
-  
-  `DELETE FROM table`
-   `WHERE`
-      ` condition;`
-     
-  * To change the existing data in one or more rows in a table the syntax is below:
-   SQL UPDATE syntax
-    ```
-    UPDATE table
-    SET 
-      column1 = new_value1,
-      column2 = new_value2,
-    WHERE
-      condition;
-  * To retrive any data SQL SELECT statement is used:
-     ```
-     SELECT column1,column2...
-     FROM table2,table2...
-     WHERE filter_condition
-     GROUP BY column1
-     HAVING group_condition
-     ORDER BY column1,column2 ASC | DESC 
----
-
-
-Q12: Identify and explain the workings of TWO sorting algorithms and discuss and compare their performance/efficiency (i.e. Big O) 100-200
-Ans: 
-Sorting algorythms:
-
-Bubble sorting: If an array needs to be sorted by asending order, it is scaned from left to right multiple times comparing the particular element of current position to the adjacent element of next position. If the current one is greater than the next one, we need to swap the element position otherwise move to the next position and repeating the comparision until the end of that array. 
-  The whole process need to repeat (n-1) times where n = the number of elements of that array. After that the whole array will be sorted in asecnding order. In this process the array divides into two bubbles, one part holding the sorted elements and rest holding the unsorted part. With each round finishing, the sorted part gets bigger.
-  For the n number element of an array, the time complexity of bubbble sorting is worst case and average complexity of О(n2).
-  
-  Merge sorting: In merge sort we take an array and divide it in two halves in two squares. Then keep dividing each of the half again and again until only one stays in one square, then take one pair of square and find the smallest one to sort the two in asending order and store them togather keeping smallest one on the top. 
-Merge sorting is less complex then bubble sorting.
-
-
----
-
-
-Q13: Identify and explain the workings of TWO search algorithms and discuss and compare their performance/efficiency (i.e. Big O) 100-200
-
----
-
-
-Q14: Conduct research into a marketplace website (app) and answer the following parts: 50-100 per part
-  a. List and describe the software used by the app.
-  b. Describe the hardware used to host the app.
-  c. Describe the interaction of technologies within the app
-  d. Describe the way data is structured within the app
-  e. Identify entities which must be tracked by the app
-  f. Identify the relationships and associations between the entities you have identified in part (e)
-  g. Design a schema using an Entity Relationship Diagram (ERD) appropriate for the database of this website (assuming a relational database model)
-
-
-
-
----
-
-
-Q2: Identify a database commonly used in web applications (including Rails) and discuss the pros and cons of this database
-
----
-
-
-Q3: Discuss the implementation of Agile project management methodology
-
----
-
-
-Q4: Provide an overview and description of a standard source control workflow
-
----
-
-
-Q5: Provide an overview and description of a standard software testing process (e.g. manual testing)
-
----
-
-
-Q6: Discuss and analyse requirements related to information system security and how they relate to the project
-
----
-
-
-Q7: Discuss common methods of protecting information and data and how you would apply them to the project
-
----
-
-
-Q8: Research what your legal obligations are in relation to handling user data and how they can be met for the project
-
----
-
-
-Q9: Describe the structural aspects of the relational database model. Your description should include information about the structure in which data is stored and how relations are represented in that structure.
-
----
-
-
-Q10: Describe the integrity aspects of the relational database model. Your description should include information about the types of data integrity and how they can be enforced in a relational database.
-
----
-
-
-Q11: Describe the manipulative aspects of the relational database model. Your description should include information about the ways in which data is manipulated (added, removed, changed, and retrieved) in a relational database.
-Ans: 
-  Data Manipulation in RDBMS:
-  The database is manipulated by Data manipulating language, eg SQL. 
   * To add a single row in the existing table of the database:
     SQL INSERT statement- 
     `INSERT INTO table(columnA, columnB,...)`
@@ -336,20 +221,64 @@ Ans:
 ---
 
 
-Q12: Identify and explain the workings of TWO sorting algorithms and discuss and compare their performance/efficiency (i.e. Big O)
+
+
+Q12: Identify and explain the workings of TWO sorting algorithms and discuss and compare their performance/efficiency (i.e. Big O) 300-500
+Ans: 
+Sorting algorythms:
+
+Bubble sorting: If an array needs to be sorted by ascending order, it is scanned from left to right multiple times comparing the particular element of the current position to the adjacent elements of the next position. If the current one is greater than the next one, we need to swap the element position otherwise move to the next position and repeating the comparison until the end of that array. 
+  The whole process needs to repeat (n-1) times where n = the number of elements of that array. After that, the whole array will be sorted in ascending order. In this process the array divides into two bubbles, one part holding the sorted elements and rest holding the unsorted part. With each round finishing, the sorted part gets bigger.
+  For the n number element of an array, the time complexity of bubble sorting is the worst-case and average complexity of О(n2).
+  
+  Merge sorting: In merge sort, we take an array and divide it into two halves into two squares. Then keep dividing each of the halves again and again until only one stays in one square, then takes one pair of the square and finds the smallest one to sort the two in ascending order and store them together keeping the smallest one on the top. 
+Merge sorting is less complex then bubble sorting.
+
 
 ---
 
 
-Q13: Identify and explain the workings of TWO search algorithms and discuss and compare their performance/efficiency (i.e. Big O)
+Q13: Identify and explain the workings of TWO search algorithms and discuss and compare their performance/efficiency (i.e. Big O) 300-500
+Ans:
+ Binary search: Binary search is a process where the search element is compared with the middle element of an ascending mannered sorted array. The search is done if the target element match with the middle element. If not, the target element is compared with both sides to find out which half includes the target element. With this approach, one half of the given array is chosen. The search procedure goes on by taking the half that includes the element until the match is found at the end.
+ 
+ In binary search,
+ - the array needs to be sorted.
+ - It is faster than a linear search for a bigger array 
+ - The space complexity of the binary search is `O(log n)`
 
+Linear search: Linear search is the process where the target element is found out by matching it with the every single element of an array. The process starts with the first element, if it is the target element the search is stopped. This is the best-case scenario of a linear search. If it is not a target element is compared with next element and the process goes on until it is a match. 
+
+In Linear search:
+- No need to sort the array
+- The element can be found anytime as the search process is so plain. So the best case complexity is Omega(1)
+- If the element we are looking for is not present in the array, a linear search will keep looking for it until the end. It did not fail in the functionality rather it failed because the element is not present in the array.
+- The worst-case complexity for linear search is O(n).
+
+Comparing the above two search methods, binary search is the best because in binary search the presence of the target element can be found out at the beginning of the search by comparing it with the halves of the array.
 ---
 
 
-Q14: Conduct research into a marketplace website (app) and answer the following parts:  a. List and describe the software used by the app.
+Q14: Conduct research into a marketplace website (app) and answer the following parts: 50-100 per part
+  a. List and describe the software used by the app.
   b. Describe the hardware used to host the app.
   c. Describe the interaction of technologies within the app
   d. Describe the way data is structured within the app
   e. Identify entities which must be tracked by the app
   f. Identify the relationships and associations between the entities you have identified in part (e)
   g. Design a schema using an Entity Relationship Diagram (ERD) appropriate for the database of this website (assuming a relational database model)
+
+
+
+
+---
+
+
+
+
+---
+
+
+
+
+
