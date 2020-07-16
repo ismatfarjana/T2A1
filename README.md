@@ -145,6 +145,10 @@ Version-control is a system that helps to maintain change in files of the collab
 NEW GIT repository -> create a standard file directory locally -> the repository is started by the command `git init` on the terminal -> after adding few files in the repository a snapshot is taken by running the command 'git commit' -> after this further changes can be done to that file and run 'git commit' again -> like the same any file can be deleted or added via the commits 
 
 Git has three parts: working tree(add, remove, edit files in the working tree), staging area(edited file adds to staging the and only staging area files are put into the next commit), history
+
+As an example of GIT workflow: To work on a project we make a branch from the master, finish the work, create a pull request. When the pull request is accepted we merge the branch to the master.
+
+
 ---
 
 
