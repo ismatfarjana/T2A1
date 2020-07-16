@@ -149,7 +149,9 @@ Git has three parts: working tree(add, remove, edit files in the working tree), 
 
 
 Q5: Provide an overview and description of a standard software testing process (e.g. manual testing) 100-200
-
+Ans:
+Manual testing:
+Manual testing is the most primitive and most trusted way to find bugs in an app. In this testing process, a person assigned as a Tester executes all the test cases of an app without using any automation tools.  As "100% Automation is not possible" according to one of the Software Testing Fundamental, manual testing has to be done besides automated testing. Prior knowledge of testing tools is not mandatory for the tester. The goal of manual testing is to make sure that the system is error-free and functional. If any bug is found tester can immediately report back to the developer so the bug is fixed and re-testing can be done to make sure that the bug is fixed. Though identifying all the problems is not possible, manual testing finds as many defects can be found.  While this is not a job of machine, it requires the tester to be patient, creative, and act as a point of user perspective.
 ---
 
 
