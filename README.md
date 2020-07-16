@@ -224,6 +224,13 @@ Q12: Identify and explain the workings of TWO sorting algorithms and discuss and
 Ans: 
 Sorting algorythms:
 
+Bubble sorting: If an array needs to be sorted by asending order, it is scaned from left to right multiple times comparing the particular element of current position to the adjacent element of next position. If the current one is greater than the next one, we need to swap the element position otherwise move to the next position and repeating the comparision until the end of that array. 
+  The whole process need to repeat (n-1) times where n = the number of elements of that array. After that the whole array will be sorted in asecnding order. In this process the array divides into two bubbles, one part holding the sorted elements and rest holding the unsorted part. With each round finishing, the sorted part gets bigger.
+  For the n number element of an array, the time complexity of bubbble sorting is worst case and average complexity of О(n2).
+  
+  Merge sorting: In merge sort we take an array and divide it in two halves in two squares. Then keep dividing each of the half again and again until only one stays in one square, then take one pair of square and find the smallest one to sort the two in asending order and store them togather keeping smallest one on the top. 
+Merge sorting is less complex then bubble sorting.
+
 
 ---
 
