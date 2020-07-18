@@ -1,5 +1,4 @@
-# T2A1
----
+
 # T2A1
 ---
 Q1: Describe the architecture of a typical Rails application. 200-300
@@ -43,15 +42,18 @@ Q2: Identify a database commonly used in web applications (including Rails) and 
 
 
 Ans: 
+
   In the world of web development, one crucial part is Database. As an example, any organization needs to store information about their employees, their contact details, and other important information.  Here comes the use of the database. A systemic collection of data is simply called the database. database stored information in an organized, reliable, and searchable way and it also has a security feature to keep the information safe with a controlled password-protected way. There are different kinds of databases for different purposes. The main types are text databases, desktop database programs, relational database management systems (RDMS), and NoSQL and object-oriented databases.
- I have found the relational database most common in many places like from the order management system (banking) to the content management system (mobile app). One most commonly used relational database management system is Postgresql which is also hugely used in building the Rails app.
+  I have found the relational database most common in many places like from the order management system (banking) to the content management system (mobile app). One most commonly used relational database management system is Postgresql which is also hugely used in building the Rails app.
 
 
-The pros of the Postgres database( relational DB) :
+ The pros of the Postgres database( relational DB) :
  
-Postgresql is one most popular, flexible, and scalable relational database management systems. It requires a Postgresql server to manage the connection of data and a management application to work with and to view the data it contains. 
-It is good for highs scaled, large project that requires relational queries.
-Structure:
+ Postgresql is one most popular, flexible, and scalable relational database management systems. It requires a Postgresql server to manage the connection of data and a management application to work with and to view the data it contains. 
+ It is good for highs scaled, large project that requires relational queries.
+
+ Structure:
+
 * Recorded are organized as a table that holds rows and columns. Columns correspond to the type and rows corresponds to the individual entities of the table 
 * It must have a Primary key that corresponds to a unique identifier that identifies a specific row.
 * It has attributes that hold general data about a record.
@@ -61,7 +63,7 @@ Structure:
 
 The cons of the Postgres database( relational DB) :
 
- * No document implementation or no graph database association
+* No document implementation or no graph database association
 * Cannot be used in defined access patterned situation.
 * The storage pattern here is concentrated. That means the entire copy of data is contained in one place which is typically not partitioned from one another unless some advanced strategy is been used.
 *  Low performance. For better performance, building a better machine is the requirement. 
@@ -71,8 +73,10 @@ The cons of the Postgres database( relational DB) :
 
 Q3: Discuss the implementation of Agile project management methodology 200-300
 
-Ans: Before developing a web application some prior works are done virtually for assuming the outcome of the whole work at the end. This called the development methodology. There are different kinds of methodologies. Waterfall methodologies, Agile methodologies sets.  
-Waterfall model applications are normally very big applications. It holds different sectors all together like the front end, back-end, DNS, etc that are measured altogether as a single application. The interesting aspect of the waterfall methodology as if the smallest part of the application fails somehow, the entire application would stop working. It also took a long time to push the change to production in this way which is not acceptable for most of the modern web applications like-  Netflix, uber, etc..  For fulfilling this shortage, the agile methodology was brainstormed but the developers. For finding the better approach to build an application in a first-place without affecting the existing software. 
+Ans:
+
+ Before developing a web application some prior works are done virtually for assuming the outcome of the whole work at the end. This called the development methodology. There are different kinds of methodologies. Waterfall methodologies, Agile methodologies sets.  
+ Waterfall model applications are normally very big applications. It holds different sectors all together like the front end, back-end, DNS, etc that are measured altogether as a single application. The interesting aspect of the waterfall methodology as if the smallest part of the application fails somehow, the entire application would stop working. It also took a long time to push the change to production in this way which is not acceptable for most of the modern web applications like-  Netflix, uber, etc..  For fulfilling this shortage, the agile methodology was brainstormed but the developers. For finding the better approach to build an application in a first-place without affecting the existing software. 
 
 
 Agile meaning: The word Agile means - the chain of rapid development and deployment. That means, breaking the whole application plan into a small piece of code and work on the small services one by one by not affecting the main application in general. Planning, designing, developing, testing, deploying, reviewing is done on those small chunks one by one except the launching. This ensures secure constant feedback by deploying it in a dev environment no matter how big or small changes have been done in any part of code.  This is way batter than waiting months long for getting feedback on a simple change on a code to decide whether the change is acceptable or not.
@@ -80,6 +84,7 @@ This aspect is good for developer because they can focus on a specific set of ta
 
 
 Agile methodology got few values: 
+
 * People over process and tools: Agile methodology gives a development-centric and client-centric environment that means exploring the other possibilities rather than holding on something old when a new solution is on hand available. 
 * Working software over comprehensive documentation: Development of the functional application get priority over documentation.
 
@@ -93,6 +98,7 @@ Scrum is basically an iterative philosophy. It allows iteration over changes one
 
 SCRUM structure:
 ROLES:
+
 1. Product owner ( Manager)
 - In scrum, the product owner is the"Guy with the Idea" so all accountability lies on him. The product owner might not be a technical person, he or she might be a person from management.
 
@@ -102,12 +108,9 @@ ROLES:
 3. Tam ( Developers, Tester)
 - The peoples who actually got to do different parts of the whole work that to be done.
 
-
 Parts of Development:
 
-Parts of Development:
-
-*Product Backlog: This is made by combination of the small tasks of the whole project and each task will iterate over - plan, build, test and review. Each of the tasks supposed to be done within a specific time limit. The product owner and SCRUM master makes the Product backlog. They prioritize the user stories while making the small parts and depending on that the next part is built which is called the "Sprint backlog"
+* Product Backlog: This is made by combination of the small tasks of the whole project and each task will iterate over - plan, build, test and review. Each of the tasks supposed to be done within a specific time limit. The product owner and SCRUM master makes the Product backlog. They prioritize the user stories while making the small parts and depending on that the next part is built which is called the "Sprint backlog"
 
 * Sprint backlog: This is where the team starts to work on. It includes the small tasks prioritizing the user stories. These are the logical reasonable tasks that need to be executed one at a time.
 
@@ -115,7 +118,7 @@ Parts of Development:
 
 * Daily scrum: This is the meeting among the member of the team that includes DEVS, testers, and other people according to the situation to discuss what to do.
 
-*Sprint review: This review session occurs at the end of each user story. The time range could be 2week to 4weeks. This session includes: demonstration of the chunk of code or the verification of completion and to move on to the next task. 
+* Sprint review: This review session occurs at the end of each user story. The time range could be 2week to 4weeks. This session includes: demonstration of the chunk of code or the verification of completion and to move on to the next task. 
 
 This development process is done several times and at the end of each 2 weeks, there is a shippable part of the app that is ready.
 
@@ -129,6 +132,7 @@ This development process is done several times and at the end of each 2 weeks, t
 Q4: Provide an overview and description of a standard source control workflow 100-200
 
 Ans:
+
 Version-control is a system that helps to maintain change in files of the collaborative workflow in a controlled way without having the worry of losing anything. There are two types of Version control. Centralized and Distributed. I choose to explain GIT (Distributed version control) as a standard source/version control system. 
 
 1. It backups every single change made in files so understanding part of code or if anything needs to stay in a previous way is done easily by following the backup history.
@@ -153,8 +157,11 @@ As an example of GIT workflow: To work on a project we make a branch from the ma
 
 
 Q5: Provide an overview and description of a standard software testing process (e.g. manual testing) 100-200
+
 Ans:
+
 Manual testing:
+
 Manual testing is the most primitive and most trusted way to find bugs in an app. In this testing process, a person assigned as a Tester executes all the test cases of an app without using any automation tools.  As "100% Automation is not possible" according to one of the Software Testing Fundamental, manual testing has to be done besides automated testing. Prior knowledge of testing tools is not mandatory for the tester. The goal of manual testing is to make sure that the system is error-free and functional. If any bug is found tester can immediately report back to the developer so the bug is fixed and re-testing can be done to make sure that the bug is fixed. Though identifying all the problems is not possible, manual testing finds as many defects can be found.  While this is not a job of machine, it requires the tester to be patient, creative, and act as a point of user perspective.
 ---
 
@@ -182,7 +189,9 @@ Q9: Describe the structural aspects of the relational database model. Your descr
 Q10: Describe the integrity aspects of the relational database model. Your description should include information about the types of data integrity and how they can be enforced in a relational database. 100-200
 
 Ans:
+
   The relational database has three types of integrity.
+
  * Entity integrety in RDBMS: Prevent duplicacy, ensures that data has been saves is uniq. DB table must have a primery key and they should be uniq in each row for holding the data in the columns.
  * Referential integrety in RDBMS: Prevention of adding any inconsistant data to exsisting data system is the referential integrety. This states that a table holding foreign key can only hold the values of the table holding the primery key.
  * domain integrety in RDBMS: A same type of data should be stored under a specific domain name in the table column. That means, every column of a table need to have a domain name.
@@ -193,6 +202,7 @@ Ans:
 Q11: Describe the manipulative aspects of the relational database model. Your description should include information about the ways in which data is manipulated (added, removed, changed, and retrieved) in a relational database. 100-200
 
 Ans:
+
  Data Manipulation in RDBMS:
   The database is manipulated by Data manipulating language, eg SQL. 
   * To add a single row in the existing table of the database:
@@ -230,38 +240,46 @@ Ans:
 
 
 Q12: Identify and explain the workings of TWO sorting algorithms and discuss and compare their performance/efficiency (i.e. Big O) 300-500
+
 Ans: 
+
 Sorting algorythms:
 
-Bubble sorting: If an array needs to be sorted by ascending order, it is scanned from left to right multiple times comparing the particular element of the current position to the adjacent elements of the next position. If the current one is greater than the next one, we need to swap the element position otherwise move to the next position and repeating the comparison until the end of that array. 
+  Bubble sorting: If an array needs to be sorted by ascending order, it is scanned from left to right multiple times comparing the particular element of the current position to the adjacent elements of the next position. If the current one is greater than the next one, we need to swap the element position otherwise move to the next position and repeating the comparison until the end of that array. 
   The whole process needs to repeat (n-1) times where n = the number of elements of that array. After that, the whole array will be sorted in ascending order. In this process the array divides into two bubbles, one part holding the sorted elements and rest holding the unsorted part. With each round finishing, the sorted part gets bigger.
   For the n number element of an array, the time complexity of bubble sorting is the worst-case and average complexity of О(n2).
   
   Merge sorting: In merge sort, we take an array and divide it into two halves into two squares. Then keep dividing each of the halves again and again until only one stays in one square, then takes one pair of the square and finds the smallest one to sort the two in ascending order and store them together keeping the smallest one on the top. 
-Merge sorting is less complex then bubble sorting.
+  Merge sorting is less complex then bubble sorting.
 
 
 ---
 
 
 Q13: Identify and explain the workings of TWO search algorithms and discuss and compare their performance/efficiency (i.e. Big O) 300-500
+
 Ans:
+
  Binary search: Binary search is a process where the search element is compared with the middle element of an ascending mannered sorted array. The search is done if the target element match with the middle element. If not, the target element is compared with both sides to find out which half includes the target element. With this approach, one half of the given array is chosen. The search procedure goes on by taking the half that includes the element until the match is found at the end.
  
  In binary search,
+
  - the array needs to be sorted.
  - It is faster than a linear search for a bigger array 
  - The space complexity of the binary search is `O(log n)`
 
-Linear search: Linear search is the process where the target element is found out by matching it with the every single element of an array. The process starts with the first element, if it is the target element the search is stopped. This is the best-case scenario of a linear search. If it is not a target element is compared with next element and the process goes on until it is a match. 
+ Linear search: Linear search is the process where the target element is found out by matching it with the every single element of an array. The process starts with the first element, if it is the target element the search is stopped. This is the best-case scenario of a linear search. If it is not a target element is compared with next element and the process goes on until it is a match. 
 
-In Linear search:
+ In Linear search:
+
 - No need to sort the array
 - The element can be found anytime as the search process is so plain. So the best case complexity is Omega(1)
 - If the element we are looking for is not present in the array, a linear search will keep looking for it until the end. It did not fail in the functionality rather it failed because the element is not present in the array.
 - The worst-case complexity for linear search is O(n).
 
 Comparing the above two search methods, binary search is the best because in binary search the presence of the target element can be found out at the beginning of the search by comparing it with the halves of the array.
+
+
 ---
 
 
