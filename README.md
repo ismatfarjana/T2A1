@@ -1,7 +1,7 @@
 
 # T2A1
 ---
-Q1: Describe the architecture of a typical Rails application. 200-300
+Q1: Describe the architecture of a typical Rails application.
 
 Ans: 
   
@@ -37,7 +37,7 @@ DO NOT REPEAT YOURSELF principle keeps the code maintainable and less buggy.
 ---
 
 
-Q2: Identify a database commonly used in web applications (including Rails) and discuss the pros and cons of this database 150-250
+Q2: Identify a database commonly used in web applications (including Rails) and discuss the pros and cons of this database 
 
 
 
@@ -71,7 +71,7 @@ The cons of the Postgres database( relational DB) :
 
 ---
 
-Q3: Discuss the implementation of Agile project management methodology 200-300
+Q3: Discuss the implementation of Agile project management methodology 
 
 Ans:
 
@@ -129,7 +129,7 @@ This development process is done several times and at the end of each 2 weeks, t
 ---
 
 
-Q4: Provide an overview and description of a standard source control workflow 100-200
+Q4: Provide an overview and description of a standard source control workflow 
 
 Ans:
 
@@ -156,7 +156,7 @@ As an example of GIT workflow: To work on a project we make a branch from the ma
 ---
 
 
-Q5: Provide an overview and description of a standard software testing process (e.g. manual testing) 100-200
+Q5: Provide an overview and description of a standard software testing process (e.g. manual testing) 
 
 Ans:
 
@@ -166,27 +166,70 @@ Manual testing is the most primitive and most trusted way to find bugs in an app
 ---
 
 
-Q6: Discuss and analyse requirements related to information system security and how they relate to the project 100-200
+Q6: Discuss and analyse requirements related to information system security and how they relate to the project.
+
+Ans: 
+
+Information system security requirements are essential to follow in order to protect software from external unethical attack.
+
+There are three major requirements in terms of information system security. They are confidentiality, integrity, and availability.
+
+In the marketplace project, I will protect confidentiality by making sure that sensitive information is not leaked to unauthorized users. For example, We will protect your email or payment details to be only accessible by the user.
+
+I will protect integrity of the application by making sure that data used in the application is only being modified via an authorized method. For example, I will create a policy for the case where we need to modify data via direct database access.
+
+Availability means reliability of all the services used in the application. I will make sure that the app is available for the user and all the functions are working as they are promised to the user.
 
 ---
 
 
-Q7: Discuss common methods of protecting information and data and how you would apply them to the project 100-200
+Q7: Discuss common methods of protecting information and data and how you would apply them to the project.
+
+Ans:
+
+Protecting user and the company's internal information and data are one of the most important task to be done in order to gain trust from the user and make the project successful.
+
+There are Five common data protection methods namely
+- Risk Assessments
+- Backups
+- Encryption
+- Pseudonymisation
+- Access Controls
+
+Risk assessments are a way to find out which data is more sensitive in terms of security the other. By doing risk assessment in my project I can identify where I need to make more effort in terms of security
+
+Backups are helpful to prevent data loss that could happen due to server or engineers error. It's a best practice to have a backup database. For marketplace project I would set up a backup process that will create a snapshot of the database after 5 minutes.
+
+High risk data for example user password or payment details are vaurnarble for attack, so I will make sure that for marketplace app we will encrypt those informations.
+
+Pseudonymisation is an effective method to protect data. I will make sure that we use enough table and association to create the app so that we can achieve pseudonymisation.
+
+Access controls are a very efficient risk reduction method. By minimizing engineers access to the database I will make sure that this app is following this method.
 
 ---
 
 
-Q8: Research what your legal obligations are in relation to handling user data and how they can be met for the project 100-200
+Q8: Research what your legal obligations are in relation to handling user data and how they can be met for the project 
+
+Ans:
+
+As we are building the marketplace app for a global audience, there are three most common legal obligations in relation to handling user data that we need to meet.
+
+1. Personal Information Protection and Electronic Documents Act (PIPEDA)
+2. General Data Protection Regulation (GDPR)
+3. Payment Card Industry Data Security Standard (PCI-DSS)
+
+To meet all above obligations. I will build marketplace app so that, we are responsible to user information and we will only require data that is needed for the app. Such as, user email, name, and address. We will also mention the user about where and how are we using their information and what information are we encrypting. In terms of payment, we will advise the user and will take concent before saving their payment informations. We will also make the functionality available so that they can request for deleting specific data.
 
 ---
 
 
-Q9: Describe the structural aspects of the relational database model. Your description should include information about the structure in which data is stored and how relations are represented in that structure. 100-200
+Q9: Describe the structural aspects of the relational database model. Your description should include information about the structure in which data is stored and how relations are represented in that structure. 
 
 ---
 
 
-Q10: Describe the integrity aspects of the relational database model. Your description should include information about the types of data integrity and how they can be enforced in a relational database. 100-200
+Q10: Describe the integrity aspects of the relational database model. Your description should include information about the types of data integrity and how they can be enforced in a relational database. 
 
 Ans:
 
@@ -199,7 +242,7 @@ Ans:
 ---
 
 
-Q11: Describe the manipulative aspects of the relational database model. Your description should include information about the ways in which data is manipulated (added, removed, changed, and retrieved) in a relational database. 100-200
+Q11: Describe the manipulative aspects of the relational database model. Your description should include information about the ways in which data is manipulated (added, removed, changed, and retrieved) in a relational database. 
 
 Ans:
 
@@ -208,7 +251,7 @@ Ans:
   * To add a single row in the existing table of the database:
     SQL INSERT statement- 
     `INSERT INTO table(columnA, columnB,...)`
-`VALUES (valueA, valueB,...);`
+    `VALUES (valueA, valueB,...);`
   * The syntax to remove one or more rows in a table of database permanently:
   
    `SQL DELETE statement`
@@ -239,7 +282,7 @@ Ans:
 
 
 
-Q12: Identify and explain the workings of TWO sorting algorithms and discuss and compare their performance/efficiency (i.e. Big O) 300-500
+Q12: Identify and explain the workings of TWO sorting algorithms and discuss and compare their performance/efficiency (i.e. Big O) 
 
 Ans: 
 
@@ -256,7 +299,7 @@ Sorting algorythms:
 ---
 
 
-Q13: Identify and explain the workings of TWO search algorithms and discuss and compare their performance/efficiency (i.e. Big O) 300-500
+Q13: Identify and explain the workings of TWO search algorithms and discuss and compare their performance/efficiency (i.e. Big O) 
 
 Ans:
 
